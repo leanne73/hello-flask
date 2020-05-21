@@ -23,6 +23,7 @@
                 },
                 methods: {
                     doWork: function() {
+                        this.serverMessage = "Working"
                         fetch('/work', {
                             method: 'GET',
                             credentials: 'same-origin'
