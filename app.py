@@ -35,7 +35,6 @@ def work():
             inv = numpy.linalg.inv(x)
             print('inv calculated')
         except numpy.linalg.LinAlgError:
-            print('no inv')
             pass
     return render_template('index.html')
 
